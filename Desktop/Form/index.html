@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script type="text/Javascript" src="js/jquery.js" > </script>
+	<script src="js/main.js"></script>
+	<script src="js/validation.js"></script>
+
+
+	
+	
+</head>
+<body >
+	<h1>Form</h1>
+
+	<form name="myform" onsubmit="return validateForm()">
+	<ul>
+		<li class="title">Who You Are?</li>
+		<li class="fields">
+		<label>*First Name:</label><br>
+		<input type="text" class="req" id="first-name" placeholder="Enter your first name"><br>
+		<label>Middle Name</label><br>
+		<input type="text" id="middle_name" placeholder="Enter your middle name"><br>
+		<label>*Last Name:</label><br>
+		<input type="text" class="req" id="last_name" placeholder="Enter your middle name" ><br>
+		<label>*Email:</label><br>
+		<input type="email" class="req" id="email" placeholder="Enter an email address" ><br>
+
+		</li>
+		<li class="title">What is Your Address?</li>
+		<li class="fields">
+		<label>City:</label><br>
+		<input type="text" id="city" placeholder="Enter the city name"><br>
+		<label>*State:</label><br>
+	
+		<select type="text" class="req" id="state" placeholder="Select a state">
+			<option type="text" value="new York">New York</option>
+			<option type="text" value="boston">Boston</option>
+			<option type="text" value="virginia">Virginia</option>
+			<option type="text" value="other">Other</option>
+		</select>
+		<br>
+		<br>
+	
+		<label>Country:</label><br>
+		<input type="text" id="country" placeholder="Enter the country name"> <br>
+		</li>
+		<li class="title">What Do You Do?</li>
+		<li class="fields">
+	     <label>*Occupation</label><br>
+	     <input type="text" class="req" id="occupation" placeholder="Enter your profession..."><br>
+	     <label>Company Name</label><br>
+	     <input type="text" id="companyname" placeholder="Enter the company name..">
+	     <br>
+	     <label>Company Location</label><br>
+	     <input type="text" id="location" placeholder="Enter a location">
+	     <br>
+
+		</li>
+	</ul>
+	<input type="submit" class="btn btn-primary"  value="Submit Form">
+	</form>
+	<div style="height: 50px"></div>
+	<hr>
+	<div class="footer">
+	<footer> Simple Form &copy; 2017</footer>
+ </div>
+
+
+
+
+</body>
+</html>
