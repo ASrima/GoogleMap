@@ -1,0 +1,25 @@
+/* Styles for the body and html of the page */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+P {
+	color: #e56a97;
+}
+
+/* Styles for map on the page */
+.map-styles {
+  height: 60.3%;
+  width: 41%;
+}
+
+.container-box {
+	padding: 0 9%;
+}
+
+ul {
+	padding: 0;
+}

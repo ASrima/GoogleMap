@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container-box">
+        <h1 class="text-primary">My Travel Story <span class="author">by Ayesha</span></h1>
+        <hr>
+    </div>
+    <div class="col-md-6 container-box">
+        <ul>
+            <li id="london" class="btn btn-primary">London</li>
+            <li id="india" class="btn btn-primary">India</li>
+            <li id="sylhet" class ="btn btn-primary">Sylhet</li>
+            <li id="chitt" class ="btn btn-primary">Chittagong</li>
+            <li id="boston" class ="btn btn-primary">Boston</li>
+        </ul>
+    <p class="des" id="desc">Description of place</p>
+    <img id="placeImg" class="img-responsive" src="img/In.jpg">
+    </div>
+         <!-- Is Going to Contain Map -->
+        <div class="container-box map-styles col-md-5 " id="map"></div>
+
+
+    <!-- Scripts Dependencies and links -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="gmap.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA68OY70pUuhlZlp8FHtRPtrGVxDRkRJnI&callback=initMap"
+    async defer></script>
+  </body>
+</html>
